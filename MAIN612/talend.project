@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
-  <TalendProperties:Project xmi:id="_G1E7IEQREeaPNdE7SEwXBg" label="main612" description="" language="java" technicalLabel="MAIN612" creationDate="2016-07-07T14:50:29.475+0800" author="_G1E7IUQREeaPNdE7SEwXBg" productVersion="Talend Data Integration-6.1.2.20160703_1934-SNAPSHOT" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;git@github.com:wdliu/repository6.1.2.git&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DI" itemsRelationVersion="1.3">
+  <TalendProperties:Project xmi:id="_G1E7IEQREeaPNdE7SEwXBg" label="main612" description="" language="java" technicalLabel="MAIN612" creationDate="2016-07-07T14:50:29.475+0800" author="_G1E7IUQREeaPNdE7SEwXBg" referencedProjects="_kHWF4EQSEeaDnPcBdttL-A" productVersion="Talend Data Integration-6.1.2.20160703_1934-SNAPSHOT" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;git@github.com:wdliu/repository6.1.2.git&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DI" itemsRelationVersion="1.3">
     <technicalStatus xmi:id="_G5FRYEQREeaPNdE7SEwXBg" label="development" code="DEV"/>
     <technicalStatus xmi:id="_G5FRYUQREeaPNdE7SEwXBg" label="testing" code="TEST"/>
     <technicalStatus xmi:id="_G5FRYkQREeaPNdE7SEwXBg" label="production" code="PROD"/>
@@ -316,4 +316,8 @@
     <migrationTask xmi:id="_G_Pk10QREeaPNdE7SEwXBg" id="org.talend.repository.model.migration.AutoUpdateRelationsMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_G1E7IUQREeaPNdE7SEwXBg" login="admin@company.com" firstName="admin" lastName="admin" type="DI" additionnalData="{}"/>
+  <TalendProperties:User xmi:id="_kHVe0EQSEeaDnPcBdttL-A" login="user@user.com" firstName="user" lastName="user" type="DI" additionnalData="{}"/>
+  <TalendProperties:ProjectReference xmi:id="_kHWF4EQSEeaDnPcBdttL-A" project="_G1E7IEQREeaPNdE7SEwXBg" branch="branches/branch1" referencedBranch="branches/branch1">
+    <referencedProject href="../REF612/talend.project#projectReference"/>
+  </TalendProperties:ProjectReference>
 </xmi:XMI>
