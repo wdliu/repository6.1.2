@@ -312,8 +312,19 @@
     <migrationTask xmi:id="_G_Pk1EQREeaPNdE7SEwXBg" id="org.talend.repository.model.migration.RenameDriverJarPathForDBConnectionMigrationTask" breaks="5.6.2" version="5.6.3" status="noimpact"/>
     <migrationTask xmi:id="_G_Pk1UQREeaPNdE7SEwXBg" id="org.talend.repository.model.migration.RemoveDuplicatedContextGroupMigrationTask" breaks="6.0.1" version="6.1.2" status="noimpact"/>
     <migrationTask xmi:id="_G_Pk1kQREeaPNdE7SEwXBg" id="org.talend.repository.model.migration.UpdateJobletContextInJobMigrationTask" breaks="6.1.1" version="6.1.2" status="noimpact"/>
-    <migrationTask xmi:id="_G_Pk10QREeaPNdE7SEwXBg" id="org.talend.repository.model.migration.AutoUpdateRelationsMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_-lya4ETTEeayX_wuzNyS5g" id="org.talend.repository.hadoopcluster.model.migration.MoveHDFSAndHCatalogToHadoopFolderMigrationTask" breaks="5.3.0" version="5.3.0" status="ok"/>
+    <migrationTask xmi:id="_-6CzoETTEeayX_wuzNyS5g" id="org.talend.repository.model.migration.FixProjectResourceLink" breaks="5.1.1" version="5.1.2" status="noimpact"/>
+    <migrationTask xmi:id="_-6CzoUTTEeayX_wuzNyS5g" id="org.talend.repository.hcatalog.model.migration.PushHCatalogIntoHadoopClusterMigrationTask" breaks="5.3.0" version="5.3.0" status="noimpact"/>
+    <migrationTask xmi:id="_-6CzokTTEeayX_wuzNyS5g" id="org.talend.repository.hdfs.model.migration.PushHDFSIntoHadoopClusterMigrationTask" breaks="5.3.0" version="5.3.0" status="noimpact"/>
+    <migrationTask xmi:id="_-6Czo0TTEeayX_wuzNyS5g" id="org.talend.designer.mapreduce.repository.migration.UnifyPasswordEncryption4ParametersInMRJobMigrationTask" breaks="5.6.0" version="5.6.0" status="noimpact"/>
+    <migrationTask xmi:id="_-6CzpETTEeayX_wuzNyS5g" id="org.talend.repository.nosql.repository.migration.UnifyPasswordEncryption4NoSQLConnectionMigrationTask" breaks="5.6.0" version="5.6.0" status="noimpact"/>
+    <migrationTask xmi:id="_-6CzpUTTEeayX_wuzNyS5g" id="org.talend.repository.storm.repository.migration.UnifyPasswordEncryption4ParametersInStormJobMigrationTask" breaks="5.6.0" version="5.6.0" status="noimpact"/>
+    <migrationTask xmi:id="_-6CzpkTTEeayX_wuzNyS5g" id="org.talend.repository.storm.repository.migration.CheckAndAddFrameworkForStormJobMigrationTask" breaks="6.0.0" version="6.0.0" status="noimpact"/>
+    <migrationTask xmi:id="_-6Czp0TTEeayX_wuzNyS5g" id="org.talend.designer.mapreduce.repository.migration.CheckAndAddFrameworkForMapReduceJobMigrationTask" breaks="6.0.0" version="6.0.0" status="noimpact"/>
+    <migrationTask xmi:id="_-6CzqETTEeayX_wuzNyS5g" id="org.talend.repository.nosql.repository.migration.ChangeMongoDBConnectionMinimalVersionMigrationTask" breaks="6.0.0" version="6.0.0" status="noimpact"/>
+    <migrationTask xmi:id="_-6CzqUTTEeayX_wuzNyS5g" id="org.talend.repository.nosql.repository.migration.FixCassandraDataStaxDbtypesProblemMigrationTask" breaks="6.0.1" version="6.1.0" status="noimpact"/>
+    <migrationTask xmi:id="_-6CzqkTTEeayX_wuzNyS5g" id="org.talend.repository.hadoopcluster.migration.AdaptDeprecatedHadoopVersionsMigrationTask" breaks="6.0.0" version="6.1.2" status="noimpact"/>
+    <migrationTask xmi:id="_-6Czq0TTEeayX_wuzNyS5g" id="org.talend.repository.model.migration.AutoUpdateRelationsMigrationTask" breaks="5.1.1" version="5.1.2" status="ok"/>
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_G1E7IUQREeaPNdE7SEwXBg" login="admin@company.com" firstName="admin" lastName="admin" type="DI" additionnalData="{}"/>
   <TalendProperties:User xmi:id="_kHVe0EQSEeaDnPcBdttL-A" login="user@user.com" firstName="user" lastName="user" type="DI" additionnalData="{}"/>
