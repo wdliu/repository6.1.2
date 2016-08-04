@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
-  <TalendProperties:Project xmi:id="_FZnfMUQQEeakzO2sySLd2w" label="ref612" description="" language="java" technicalLabel="REF612" creationDate="2016-07-07T14:51:29.785+0800" author="_FZoGQEQQEeakzO2sySLd2w" productVersion="Talend Data Fabric-6.1.2.20160731_1935-SNAPSHOT" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;git@github.com:wdliu/repository6.1.2.git&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" reference="true" type="DI" itemsRelationVersion="1.3">
+  <TalendProperties:Project xmi:id="_FZnfMUQQEeakzO2sySLd2w" label="ref612" description="" language="java" technicalLabel="REF612" creationDate="2016-07-07T14:51:29.785+0800" author="_FZoGQEQQEeakzO2sySLd2w" productVersion="Talend Open Studio for Data Integration-6.1.0.20151203_1151-SNAPSHOT" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;git@github.com:wdliu/repository6.1.2.git&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" reference="true" type="DI" itemsRelationVersion="1.3">
     <technicalStatus xmi:id="_G593oEQQEeakzO2sySLd2w" label="development" code="DEV"/>
     <technicalStatus xmi:id="_G593oUQQEeakzO2sySLd2w" label="testing" code="TEST"/>
     <technicalStatus xmi:id="_G593okQQEeakzO2sySLd2w" label="production" code="PROD"/>
